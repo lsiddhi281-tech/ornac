@@ -39,7 +39,7 @@ const productValidation = [
 
 router.get("/filters/meta", getProductFilters);
 router.get("/suggestions", getSearchSuggestions);
-router.get("/products/home-feed", getHomeFeed);
+router.get("/home-feed", getHomeFeed);
 router.get("/new-arrivals", getNewArrivals);
 router.get("/trending", getTrending);
 router.get("/discovery/:id", getProductDiscoveryFeed);
